@@ -1,0 +1,105 @@
+@keyframes MyCard1A
+{
+    from {width: 64px; height: 89px; top: 272px; left: 870px;}
+    to {top: 503px; left: 462px; visibility: visible;}
+}
+@keyframes MyCard2A
+{
+    from {width: 64px; height: 89px; top: 272px; left: 870px;}
+    to {top: 503px; left: 602px; visibility: visible;}
+}
+@keyframes p2c1A
+{
+    from {top: 272px; left: 870px; transform: rotate(0deg);}
+    to {top: 460px; left: 190px; transform: rotate(21deg); visibility: visible;}
+}
+@keyframes p2c2A
+{
+    from {top: 272px; left: 870px;  transform: rotate(0deg);}
+    to {top: 473px; left: 224px; transform: rotate(21deg); visibility: visible;}
+}
+@keyframes p3c1A
+{
+    from {top: 272px; left: 870px; transform: rotate(0deg);}
+    to {top: 283px; left: 30px; transform: rotate(-90deg); visibility: visible;}
+}
+@keyframes p3c2A
+{
+    from {top: 272px; left: 870px; transform: rotate(0deg);}
+    to {top: 249px; left: 30px; transform: rotate(-90deg); visibility: visible;}
+}
+@keyframes p4c1A
+{
+    from {top: 272px; left: 870px; transform: rotate(0deg);}
+    to {top: 47px; left: 190px; transform: rotate(-21deg); visibility: visible;}
+}
+@keyframes p4c2A
+{
+    from {top: 272px; left: 870px; transform: rotate(0deg);}
+    to {top: 34px; left: 224px; transform: rotate(-21deg); visibility: visible;}
+}
+@keyframes p5c1A
+{
+    from {top: 272px; left: 870px;}
+    to {top: 12px; left: 549px; visibility: visible;}
+}
+@keyframes p5c2A
+{
+    from {top: 272px; left: 870px;}
+    to {top: 12px; left: 583px; visibility: visible;}
+}
+@keyframes p6c1A
+{
+    from {top: 272px; left: 870px; transform: rotate(0deg);}
+    to {top: 34px; left: 908px; transform: rotate(21deg); visibility: visible;}
+}
+@keyframes p6c2A
+{
+    from {top: 272px; left: 870px; transform: rotate(0deg);}
+    to {top: 47px; left: 942px; transform: rotate(21deg); visibility: visible;}
+}
+@keyframes p7c1A
+{
+    from {top: 272px; left: 870px; transform: rotate(0deg);}
+    to {top: 249px; left: 1102px; transform: rotate(90deg); visibility: visible;}
+}
+@keyframes p7c2A
+{
+    from {top: 272px; left: 870px; transform: rotate(0deg);}
+    to {top: 283px; left: 1102px; transform: rotate(90deg); visibility: visible;}
+}
+@keyframes p8c1A
+{
+    from {top: 272px; left: 870px; transform: rotate(0deg);}
+    to {top: 473px; left: 908px; transform: rotate(-21deg); visibility: visible;}
+}
+@keyframes p8c2A
+{
+    from {top: 272px; left: 870px; transform: rotate(0deg);}
+    to {top: 460px; left: 942px; transform: rotate(-21deg); visibility: visible;}
+}
+@keyframes f1A
+{
+    from {top: 272px; left: 870px;}
+    to {top: 272px; left: 262px; visibility: visible;}
+}
+@keyframes f2A
+{
+    from {top: 272px; left: 870px;}
+    to {top: 272px; left: 384px; visibility: visible;}
+}
+@keyframes f3A
+{
+    from {top: 272px; left: 870px;}
+    to {top: 272px; left: 506px; visibility: visible;}
+}
+@keyframes tA
+{
+    from {top: 272px; left: 870px;}
+    to {top: 272px; left: 628px; visibility: visible;}
+}
+@keyframes rA
+ {
+     from {top: 272px; left: 870px;}
+     to {top: 272px; left: 750px; visibility: visible;}
+ }

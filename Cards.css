@@ -1,0 +1,181 @@
+.PlayerCard
+{
+    position: absolute;
+    bbackground: #d41920 url("Images/Red_Back.png");
+    background: white;
+    background-size: 64px 89px;
+    bborder: 2px solid #d41920;
+    border: 2px solid white;
+    border-radius: 5%;
+    width: 64px;
+    height: 89px;
+    visibility: hidden;
+    overflow: hidden;
+    ccontent-visibility: hidden;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.PlayerCard:hover
+{
+    overflow: hidden;
+    transition: all 0.7s ease;
+    background: white;
+    border: 2px solid white;
+    content-visibility: visible;
+}
+.MyCard
+{
+    position: absolute;
+    bbackground: #d41920 url("Images/Red_Back.png");
+    background: white;
+    background-size: 128px 178px;
+    bborder: 4px solid #d41920;
+    border: 4px solid white;
+    border-radius: 5%;
+    width: 128px;
+    height: 178px;
+    visibility: hidden;
+    overflow: hidden;
+    ccontent-visibility: hidden;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.MyCard:hover
+{
+    overflow: hidden;
+    transition: all 0.7s ease;
+    background: white;
+    border: 4px solid white;
+    content-visibility: visible;
+}
+.FFFTR
+{
+    position: absolute;
+    background: white;
+    background-size: 64px 89px;
+    border: 2px solid white;
+    border-radius: 5%;
+    width: 64px;
+    height: 89px;
+    visibility: hidden;
+    overflow: hidden;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+#MyCard1
+{
+    bottom: -89px;
+    left: 462px;
+}
+#MyCard2
+{
+    bottom: -89px;
+    left: 602px;
+}
+#p2c1
+{
+    transform: rotate(21deg);
+    bottom: 47px;
+    left: 190px;
+}
+#p2c2
+{
+    transform: rotate(21deg);
+    bottom: 34px;
+    left: 224px;
+}
+#p3c1
+{
+    transform: rotate(-90deg);
+    top: 283px;
+    left: 30px;
+}
+#p3c2
+{
+    transform: rotate(-90deg);
+    top: 249px;
+    left: 30px;
+}
+#p4c1
+{
+    transform: rotate(-21deg);
+    top: 47px;
+    left: 190px;
+}
+#p4c2
+{
+    transform: rotate(-21deg);
+    top: 34px;
+    left: 224px;
+}
+#p5c1
+{
+    top: 12px;
+    left: 549px;
+}
+#p5c2
+{
+    top: 12px;
+    left: 583px;
+}
+#p6c1
+{
+    transform: rotate(21deg);
+    top: 34px;
+    right: 224px;
+}
+#p6c2
+{
+    transform: rotate(21deg);
+    top: 47px;
+    right: 190px;
+}
+#p7c1
+{
+    transform: rotate(90deg);
+    top: 249px;
+    right: 30px;
+}
+#p7c2
+{
+    transform: rotate(90deg);
+    top: 283px;
+    right: 30px;
+}
+#p8c1
+{
+    transform: rotate(-21deg);
+    bottom: 34px;
+    right: 224px;
+}
+#p8c2
+{
+    transform: rotate(-21deg);
+    bottom: 47px;
+    right: 190px;
+}
+#f1
+{
+    top: 272px;
+    left: 262px;
+}
+#f2
+{
+    top: 272px;
+    left: 384px;
+}
+#f3
+{
+    top: 272px;
+    left: 506px;
+}
+#t
+{
+    top: 272px;
+    left: 628px;
+}
+#r
+{
+    top: 272px;
+    left: 750px;
+}

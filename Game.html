@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Poker Game</title>
+    <link rel="stylesheet" href="TableStyle.css">
+    <link rel="stylesheet" href="Animations.css">
+    <link rel="stylesheet" href="Cards.css">
+    <link rel="stylesheet" href="Card_Front.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Poker Game</h1>
+    <section id="Page1">
+        <div>
+            <div id="question" > How many players will join the game?</div>
+        </div>
+        <div>
+            <button onclick="main(2);" class="NPButton">2</button>
+            <button onclick="main(3);" class="NPButton">3</button>
+            <button onclick="main(4);" class="NPButton">4</button>
+            <button onclick="main(5);" class="NPButton">5</button>
+            <button onclick="main(6);" class="NPButton">6</button>
+            <button onclick="main(7);" class="NPButton">7</button>
+            <button onclick="main(8);" class="NPButton">8</button>
+        </div>
+    </section>
+    <section id="Page2">
+        <div class="Table">
+            <div id="table_background">
+                <div>
+                    <div id="Light1" class="Lights"></div>
+                    <div id="Light2" class="Lights"></div>
+                    <div id="Light3" class="Lights"></div>
+                    <div id="Light4" class="Lights"></div>
+                </div>
+                <div id="VPN">Veli's Poker Night</div>
+                <div id="Flop1" class="FFFTRB">Flop</div>
+                <div id="Flop2" class="FFFTRB">Flop</div>
+                <div id="Flop3" class="FFFTRB">Flop</div>
+                <div id="Turn" class="FFFTRB">Turn</div>
+                <div id="River" class="FFFTRB">River</div>
+                <div id="Deck" class="FFFTRB">Deck</div>
+                <div onclick="DealBoard();" id="decks"></div>
+                <div id="f1" class="FFFTR">
+                    <div id="f1v1" class="Value1"></div>
+                    <div id="f1s1" class="Symbol1"></div>
+                    <div id="f1s2" class="Symbol2"></div>
+                    <div id="f1v2" class="Value2"></div>
+                </div>
+                <div id="f2" class="FFFTR">
+                    <div id="f2v1" class="Value1"></div>
+                    <div id="f2s1" class="Symbol1"></div>
+                    <div id="f2s2" class="Symbol2"></div>
+                    <div id="f2v2" class="Value2"></div>
+                </div>
+                <div id="f3" class="FFFTR">
+                    <div id="f3v1" class="Value1"></div>
+                    <div id="f3s1" class="Symbol1"></div>
+                    <div id="f3s2" class="Symbol2"></div>
+                    <div id="f3v2" class="Value2"></div>
+                </div>
+                <div id="t" class="FFFTR">
+                    <div id="tv1" class="Value1"></div>
+                    <div id="ts1" class="Symbol1"></div>
+                    <div id="ts2" class="Symbol2"></div>
+                    <div id="tv2" class="Value2"></div>
+                </div>
+                <div id="r" class="FFFTR">
+                    <div id="rv1" class="Value1"></div>
+                    <div id="rs1" class="Symbol1"></div>
+                    <div id="rs2" class="Symbol2"></div>
+                    <div id="rv2" class="Value2"></div>
+                </div>
+            </div>
+            <div id="MyCard1" class="MyCard">
+                <div id="MC1v1" class="MCValue1"></div>
+                <div id="MC1s1" class="MCSymbol1"></div>
+                <div id="MC1s2" class="MCSymbol2"></div>
+                <div id="MC1v2" class="MCValue2"></div>
+            </div>
+            <div id="MyCard2" class="MyCard">
+                <div id="MC2v1" class="MCValue1"></div>
+                <div id="MC2s1" class="MCSymbol1"></div>
+                <div id="MC2s2" class="MCSymbol2"></div>
+                <div id="MC2v2" class="MCValue2"></div>
+            </div>
+            <div id="p2c1" class="PlayerCard">
+                <div id="p2c1v1" class="Value1"></div>
+                <div id="p2c1s1" class="Symbol1"></div>
+                <div id="p2c1s2" class="Symbol2"></div>
+                <div id="p2c1v2" class="Value2"></div>
+            </div>
+            <div id="p2c2" class="PlayerCard">
+                <div id="p2c2v1" class="Value1"></div>
+                <div id="p2c2s1" class="Symbol1"></div>
+                <div id="p2c2s2" class="Symbol2"></div>
+                <div id="p2c2v2" class="Value2"></div>
+            </div>
+            <div id="p3c1" class="PlayerCard">
+                <div id="p3c1v1" class="Value1"></div>
+                <div id="p3c1s1" class="Symbol1"></div>
+                <div id="p3c1s2" class="Symbol2"></div>
+                <div id="p3c1v2" class="Value2"></div>
+            </div>
+            <div id="p3c2" class="PlayerCard">
+                <div id="p3c2v1" class="Value1"></div>
+                <div id="p3c2s1" class="Symbol1"></div>
+                <div id="p3c2s2" class="Symbol2"></div>
+                <div id="p3c2v2" class="Value2"></div>
+            </div>
+            <div id="p4c1" class="PlayerCard">
+                <div id="p4c1v1" class="Value1"></div>
+                <div id="p4c1s1" class="Symbol1"></div>
+                <div id="p4c1s2" class="Symbol2"></div>
+                <div id="p4c1v2" class="Value2"></div>
+            </div>
+            <div id="p4c2" class="PlayerCard">
+                <div id="p4c2v1" class="Value1"></div>
+                <div id="p4c2s1" class="Symbol1"></div>
+                <div id="p4c2s2" class="Symbol2"></div>
+                <div id="p4c2v2" class="Value2"></div>
+            </div>
+            <div id="p5c1" class="PlayerCard">
+                <div id="p5c1v1" class="Value1"></div>
+                <div id="p5c1s1" class="Symbol1"></div>
+                <div id="p5c1s2" class="Symbol2"></div>
+                <div id="p5c1v2" class="Value2"></div>
+            </div>
+            <div id="p5c2" class="PlayerCard">
+                <div id="p5c2v1" class="Value1"></div>
+                <div id="p5c2s1" class="Symbol1"></div>
+                <div id="p5c2s2" class="Symbol2"></div>
+                <div id="p5c2v2" class="Value2"></div>
+            </div>
+            <div id="p6c1" class="PlayerCard">
+                <div id="p6c1v1" class="Value1"></div>
+                <div id="p6c1s1" class="Symbol1"></div>
+                <div id="p6c1s2" class="Symbol2"></div>
+                <div id="p6c1v2" class="Value2"></div>
+            </div>
+            <div id="p6c2" class="PlayerCard">
+                <div id="p6c2v1" class="Value1"></div>
+                <div id="p6c2s1" class="Symbol1"></div>
+                <div id="p6c2s2" class="Symbol2"></div>
+                <div id="p6c2v2" class="Value2"></div>
+            </div>
+            <div id="p7c1" class="PlayerCard">
+                <div id="p7c1v1" class="Value1"></div>
+                <div id="p7c1s1" class="Symbol1"></div>
+                <div id="p7c1s2" class="Symbol2"></div>
+                <div id="p7c1v2" class="Value2"></div>
+            </div>
+            <div id="p7c2" class="PlayerCard">
+                <div id="p7c2v1" class="Value1"></div>
+                <div id="p7c2s1" class="Symbol1"></div>
+                <div id="p7c2s2" class="Symbol2"></div>
+                <div id="p7c2v2" class="Value2"></div>
+            </div>
+            <div id="p8c1" class="PlayerCard">
+                <div id="p8c1v1" class="Value1"></div>
+                <div id="p8c1s1" class="Symbol1"></div>
+                <div id="p8c1s2" class="Symbol2"></div>
+                <div id="p8c1v2" class="Value2"></div>
+            </div>
+            <div id="p8c2" class="PlayerCard">
+                <div id="p8c2v1" class="Value1"></div>
+                <div id="p8c2s1" class="Symbol1"></div>
+                <div id="p8c2s2" class="Symbol2"></div>
+                <div id="p8c2v2" class="Value2"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

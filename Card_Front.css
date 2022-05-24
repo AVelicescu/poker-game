@@ -1,0 +1,80 @@
+.Value1
+{
+    text-align: center;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.Value2
+{
+    text-align: center;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 43px;
+    transform: rotate(180deg);
+}
+.Symbol1
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 9px;
+    width: 20px;
+    height: 20px;
+}
+.Symbol2
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 43px;
+    transform: rotate(180deg);
+}
+.MCValue1
+{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+.MCValue2
+{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 88px;
+    transform: rotate(180deg);
+}
+.MCSymbol1
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 18px;
+    width: 40px;
+    height: 40px;
+}
+.MCSymbol2
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 88px;
+    transform: rotate(180deg);
+}
